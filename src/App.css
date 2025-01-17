@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Skeleton/layout settings */
+
+.appLayoutWrapper {
+  height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  color: #ffffff; /* Color de texto blanco */
+}
+
+/* Main content settings */
+
+.LandingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff; /* Color de texto blanco */
+  background-color: rgb(25, 38, 52);
+
+}
+
+.footer-bg {
+  background-color: rgb(18, 32, 46);
+}
+
+.navbar-bg {
+  background-color: rgba(18, 32, 46, 0.66);
+}
